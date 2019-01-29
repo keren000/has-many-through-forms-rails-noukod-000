@@ -5,5 +5,5 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-music = Category.create name: 'music'
-news = Category.create name: 'news'
+city = Category.create name: 'city'
+state = Category.create name: 'state'
